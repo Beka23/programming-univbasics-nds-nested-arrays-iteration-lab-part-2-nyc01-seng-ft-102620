@@ -13,8 +13,8 @@ while row_index < src.count do
     end
     element_index += 1 
   end
-outer_results << min_num 
+smallest_numbers << min_num 
 row_index += 1 
 end
-outer_results
+smallest_numbers
 end
