@@ -8,7 +8,7 @@ while index < src.count do
   element_index = 0 
   while element_index < 
   src[index].count do 
-    
+    if src[index][element_index]
 
 end
    
