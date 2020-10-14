@@ -19,7 +19,7 @@
     element_index = 0 
     min_num = 1
     while element_index < src[row_index].length do 
-      if src[row_index][element_index] > min_num
+      if src[row_index][element_index].length > min_num
         min_num = src[row_index][element_index]
       end
       element_index += 1 
